@@ -1,9 +1,9 @@
 package com.example.demo.controller;
 
-import org.springframework.stereotype.Controller;
+org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@Controller
+@RestController
 public class TestController {
 
 	@GetMapping("/display")
